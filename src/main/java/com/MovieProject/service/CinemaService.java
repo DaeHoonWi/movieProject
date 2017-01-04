@@ -8,5 +8,7 @@ public interface CinemaService {
 
 	public ArrayList<CinemaDTO> selectCinemaList();
 	public void writeCinema(CinemaDTO cinemaDTO);
-	public void deleteCinema(int num);
+	public void deleteCinema(int cNum);
+	public CinemaDTO selectCinemaDetail(int cNum);
+	public void updateCinema(CinemaDTO cinemaDTO);
 }
